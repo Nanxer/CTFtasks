@@ -10,14 +10,13 @@ import string
 
 def generate_random_flag(length):
     letters = string.ascii_letters + string.digits
-    return ''.join(random.choice(letters) for i in range(length))
+    return 'flag{' + ''.join(random.choice(letters) for i in range(length)) + '}'
 
 
 def mian():
     key = int(input("Enter the length of the flag: "))
-    random_flag = 'flag{'+ generate_random_flag(key) + '}'
+    random_flag = generate_random_flag(key)
     print(f"Random flag: {random_flag}")
-
 
 if __name__ == '__main__':
     mian()
