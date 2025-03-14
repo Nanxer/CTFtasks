@@ -1,12 +1,21 @@
 CTFtasks
+This repository mainly stores some personal CTF tasks that I have done or are being researched.
 
-本仓库主要储存一些个人平时做过的或者在研究的CTF题目，来源于网络的题目均标明来源并可能作些许修改。
 --------------------------------------------------
 --------------------------------------------------
-目录树结构:
-└── 2025
-    └── crypto
-        └── MoeCTF_2024_small_and_big
-            ├── readme.md
-            ├── secret.py
-            └── task.py
+
+Directory tree structure:
+├── 2025
+│   └── crypto
+│       ├── MoeCTF_2024_DA_BAI_TU
+│       │   ├── README.md
+│       │   ├── secret.py
+│       │   └── task.py
+│       └── MoeCTF_2024_small_and_big
+│           ├── README.md
+│           ├── secret.py
+│           └── task.py
+├── generate_file_graph.py
+├── generate_new_task.py
+├── generate_random_flag.py
+└── README.txt
