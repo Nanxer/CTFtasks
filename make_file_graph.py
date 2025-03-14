@@ -38,6 +38,6 @@ def list_files(directory, ignore=None, prefix=""):
 if __name__ == "__main__":
     target_directory = "."
     # ignore some files or directories
-    ignore_files = {'.git', 'README.md', 'make_file_graph.py'}
+    ignore_files = {'.git', 'README.md', 'make_file_graph.py','random_flag.py'}
     print("目录树结构:")
     list_files(target_directory, ignore_files)

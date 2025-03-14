@@ -5,5 +5,7 @@
 目录树结构:
 └── 2025
     └── crypto
-
-
+        └── MoeCTF_2024_small_and_big
+            ├── readme.md
+            ├── secret.py
+            └── task.py
