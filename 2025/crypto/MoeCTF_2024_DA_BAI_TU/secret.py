@@ -1,1 +1,1 @@
-flag = "flag{S7vbaAZRL0gGJRJWGAXK20DiDzqN1B}"
+flag = b'moectf{Sh4!!0w_deeb4t0_P01arnova}'
